@@ -1,5 +1,4 @@
 #include <array>
-#include <iostream>
 
 #include <algorithm>
 
@@ -7,12 +6,14 @@
 using namespace std;
 
 /*
-	TLDR
-	bool_of: Test condition on all elements in range
+	(c++11)
+	bool all_of(InputIterator first, InputIterator last, UnaryPredicate pred)
+	
+	TL,DR.
+	Test condition on all elements in range
 
 	
 
-	bool all_of(InputIterator first, InputIterator last, UnaryPredicate pred)
 
 	Parameters:
 		first, last: Input iterators to the intial and final positions in a sequence. 
